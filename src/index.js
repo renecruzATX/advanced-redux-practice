@@ -26,11 +26,7 @@ ReactDOM.render(
     <Provider store={store}>
         <App
             taskItem={taskItem}
-            dateTime={dateTime}
-            newComments={newComments}
-            newTasks={newTasks}
-            newOrders={newOrders}
-            tickets={tickets}
+            dateTime={dateTime}           
             orders={orders} 
             messages={messages}
             tasks={tasks}

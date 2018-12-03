@@ -32,10 +32,8 @@ function mapStateToProps(state){
     return{
         comments:state.newComments
     }
-}
-   
+}   
    
 const CommentsContainer= connect(mapStateToProps)(Comments);
-export default CommentsContainer
-   
+export default CommentsContainer   
 
